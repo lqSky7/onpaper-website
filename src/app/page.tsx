@@ -11,7 +11,6 @@ import DefeatSection from "@/components/DefeatSection";
 import HackFirstSection from "@/components/HackFirstSection";
 import AboutSection from "@/components/AboutSection";
 import TechnologiesSection from "@/components/TechnologiesSection";
-import AwardsSection from "@/components/AwardsSection";
 import StartedSection from "@/components/StartedSection";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
@@ -47,9 +46,6 @@ export default function HomePage() {
       <div className="layout-title" data-layout="03">
         Technologies
       </div>
-      <div className="layout-title" data-layout="04">
-        Awards
-      </div>
 
       <div className="layout-count" data-layout="01">
         01
@@ -60,14 +56,10 @@ export default function HomePage() {
       <div className="layout-count" data-layout="03">
         03
       </div>
-      <div className="layout-count" data-layout="04">
-        04
-      </div>
 
       <HackFirstSection />
       <AboutSection />
       <TechnologiesSection />
-      <AwardsSection />
       <StartedSection />
       <Footer />
       <ScrollProgress />

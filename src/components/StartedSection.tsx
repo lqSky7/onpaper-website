@@ -25,7 +25,12 @@ export default function StartedSection() {
         <p className="started-text" animate-blur-text="">
           With OnPaper™ Interview Readiness, you don’t just memorize answers — you own the architecture
         </p>
-        <Link href="/contacts" className="started-btn" animate-blur-el="">
+        <Link
+          href="https://github.com/lqSky7/onpaper"
+          target="_blank"
+          className="started-btn"
+          animate-blur-el=""
+        >
           Get started
         </Link>
       </div>
